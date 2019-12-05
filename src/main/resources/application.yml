@@ -1,0 +1,14 @@
+server:
+  port: 8082
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/leviBlog
+    username: root
+    password: 77kk39zh
+
+mybatis:
+  type-aliases-package: com.levi.blog.pojo
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
